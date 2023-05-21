@@ -1,0 +1,27 @@
+<div class="calculator">
+  <input type="text" placeholder="0" value={{result}}>
+  <button class="button2" (click)="display1('⁒')" >%</button>
+  <button class="button2" (click)="Clear()" >CE</button>
+  <button class="button2" (click)="Clear()" >C</button>
+  <button class="button2" (click)="Delete()" >Del</button>
+  <button class="button2" (click)="display2('n')" >1/x</button>
+  <button class="button2" (click)="display2('s')" >x²</button>
+  <button class="button2" (click)="display2('q')" >√</button>
+  <button class="button2" (click)="display1('÷')" >÷</button>
+  <button (click)="display('7')">7</button>
+  <button (click)="display('8')">8</button>
+  <button (click)="display('9')">9</button>
+  <button class="button2" (click)="display1('*')" >*</button>
+  <button (click)="display('4')">4</button>
+  <button (click)="display('5')">5</button>
+  <button (click)="display('6')">6</button>
+  <button class="button2" (click)="display1('-')" >-</button>
+  <button (click)="display('1')">1</button>
+  <button (click)="display('2')">2</button>
+  <button (click)="display('3')">3</button>
+  <button class="button2" (click)="display1('+')" >+</button>
+  <button (click)="display4('m')">+/-</button>
+  <button (click)="display('0')">0</button>
+  <button (click)="display3('.')" >.</button>
+  <button (click)="solut('=')" style="background-color:rgb(59, 88, 234);">=</button>
+</div>
